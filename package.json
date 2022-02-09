@@ -1,6 +1,6 @@
 {
   "name": "@artsys/loggerjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Logger class for easy and aesthetically pleasing console logging",
   "main": "index.js",
   "scripts": {
