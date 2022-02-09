@@ -2,10 +2,25 @@
 Logger class for easy and aesthetically pleasing console logging 
 */
 const { cyan, red, magenta, gray, yellow, white, green } = require("colorette");
-const { Timestamp } = require("@sapphire/time-utilities");
+
+const timeStamp = () => {
+
+  const date = new Date();
+
+  const year = date.getFullYear();
+  const month = (date.getMonth() + 1).toString().padStart(2, '0');
+  const day = (date.getDate()).toString().padStart(2, '0');
+
+  const hh = (date.getHours()).toString().padStart(2, '0');
+  const mm = (date.getMinutes()).toString().padStart(2, '0');
+  const ss = (date.getSeconds()).toString().padStart(2, '0');
+
+  return `${year}-${month}-${day} ${hh}:${mm}:${ss}`;
+
+}
 
 exports.log = (content, type = "log") => {
-    const timestamp = `[${cyan(new Timestamp("YYYY-MM-DD HH:mm:ss"))}]:`;
+    const timestamp = `[${cyan(timeStamp())}]:`;
     
     switch (type) {
       case "log": return console.log(`${timestamp} ${gray(type.toUpperCase())} ${content} `);
