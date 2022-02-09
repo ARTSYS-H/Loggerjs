@@ -7,7 +7,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/ARTSYS-H/loggerjs)](https://github.com/ARTSYS-H/loggerjs/network)
 [![GitHub license](https://img.shields.io/github/license/ARTSYS-H/loggerjs)](https://github.com/ARTSYS-H/loggerjs)
 
-Add an easy and aesthetically pleasing console logging to your project.
+Add an easy and aesthetically pleasing console logging for your project.
 
 ## Install
 
