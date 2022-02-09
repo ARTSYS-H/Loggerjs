@@ -1,6 +1,6 @@
 {
   "name": "@artsys/loggerjs",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Logger class for easy and aesthetically pleasing console logging",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,6 @@
   "license": "MIT",
   "repository": "ARTSYS-H/loggerjs",
   "dependencies": {
-    "@sapphire/time-utilities": "^1.6.0",
     "colorette": "^2.0.16"
   }
 }
