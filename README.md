@@ -38,11 +38,11 @@ logger.error("Here is your log")
 // => [2022-02-09 10:09:26]: ERROR Here is your log
 ```
 
-|   available types   |   available types   |                                                   outputs examples                                                   | 
-| :-----------------: | :-----------------: | :------------------------------------------------------------------------------------------------------------------: |
-|         log         |         gray        |   [<span style="color:cyan">2022-02-09 10:09:26</span>]: <span style="color:gray">LOG</span> Here is your log        |
-|         warn        |        yellow       |   [<span style="color:cyan">2022-02-09 10:09:26</span>]: <span style="color:yellow">WARN</span> Here is your log     |
-|         error       |         red         |   [<span style="color:cyan">2022-02-09 10:09:26</span>]: <span style="color:red">ERROR</span> Here is your log       |
-|         debug       |        magenta      |   [<span style="color:cyan">2022-02-09 10:09:26</span>]: <span style="color:magenta">DEBUG</span> Here is your log   |
-|         cmd         |         white       |   [<span style="color:cyan">2022-02-09 10:09:26</span>]: <span style="color:white">CMD</span> Here is your log       |
-|         ready       |         green       |   [<span style="color:cyan">2022-02-09 10:09:26</span>]: <span style="color:green">READY</span> Here is your log     |
+|   available types   |   available types   |
+| :-----------------: | :-----------------: |
+|         log         |         gray        |
+|         warn        |        yellow       |
+|         error       |         red         |
+|         debug       |        magenta      |
+|         cmd         |         white       |
+|         ready       |         green       |
