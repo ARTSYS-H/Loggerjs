@@ -1,0 +1,24 @@
+{
+  "name": "@artsys/loggerjs",
+  "version": "1.0.0",
+  "description": "Logger class for easy and aesthetically pleasing console logging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Hadey",
+  "keywords": [
+    "terminal",
+    "styles",
+    "color",
+    "ansi",
+    "logger",
+    "console",
+    "artsys"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@sapphire/time-utilities": "^1.6.0",
+    "colorette": "^2.0.16"
+  }
+}
