@@ -38,11 +38,11 @@ logger.error("Here is your log")
 // => [2022-02-09 10:09:26]: ERROR Here is your log
 ```
 
-|   available types   |
-| :-----------------: |
-|         log         |
-|         warn        |
-|         error       |
-|         debug       |
-|         cmd         |
-|         ready       |
+|   available types   |   available types   |
+| :-----------------: | :-----------------: |
+|         log         |         gray        |
+|         warn        |        yellow       |
+|         error       |         red         |
+|         debug       |        magenta      |
+|         cmd         |         white       |
+|         ready       |         green       |
